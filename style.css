@@ -358,6 +358,20 @@ footer {
     align-items: center;
     cursor: pointer;
 }
+
+.inMail{
+    width: 160px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+    gap: 5px;
+    border-radius: 0.6rem;
+    background-color: #656565;
+}
+
 .linkedin{
     grid-row: 1/11;
     grid-column: 11/21;
@@ -378,9 +392,15 @@ footer {
     border-radius: 0.6rem;
     margin: 5px;
     display: flex;
+    justify-items: center;
+    align-content: center;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+.git p{
+    color:#aaaaaa;
 }
 
 .imgLink{
@@ -395,8 +415,8 @@ footer {
 
 }
 .imgMail{
-    border-radius: 0.6rem;
-    height: 30px;
+    border-radius: 0.1rem;
+    height: 15px;
     
 }
 
